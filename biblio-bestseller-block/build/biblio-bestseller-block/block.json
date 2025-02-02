@@ -1,0 +1,29 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "create-block/biblio-bestseller-block",
+  "version": "0.1.0",
+  "title": "Genre Bestseller",
+  "category": "text",
+  "icon": "book",
+  "description": "A block displaying the best-selling book for the selected genre.",
+  "example": {},
+  "supports": {
+    "html": false
+  },
+  "textdomain": "biblio-bestseller-block",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js",
+  "attributes": {
+    "genre": {
+      "type": "string",
+      "default": "fiction"
+    },
+    "title": {
+      "type": "string",
+      "default": "Bestseller"
+    }
+  }
+}

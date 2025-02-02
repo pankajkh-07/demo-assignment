@@ -1,0 +1,85 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-create-block-biblio-bestseller-block {
+	background-color: #E6E6E6;
+	color: #000;
+	padding: 20px;
+}
+
+.book_container{
+	border: 1px solid #ccc;
+	padding: 20px;
+	background-color: #E6E6E6;
+}
+
+.book_heading{
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.book_title{
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+	font-weight: demi-bold;
+	margin-bottom: 0;
+}
+
+.book{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+	border-radius: 5px;
+	margin: 10px;
+	
+	a {
+		text-decoration: none;
+	}
+}
+
+.book_author_name{
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-weight: regular;
+	margin-top: 0;
+}
+
+.book_buy_now{
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-weight: semi-bold;
+	background-color: #FF6401;
+	border: none;
+	text-transform: uppercase;
+	padding: 10px 20px;
+	text-decoration: none;
+}
+
+.book_deco {
+	width: 322.67px;
+    height: 39.58px;
+    text-align: center;
+    margin-top: 60px;
+    border-top: 1px solid #847e7e;
+    position: relative;
+
+	img {
+		width: 30px;
+		position: absolute;
+		top: -50%;
+		left: 50%;
+		transform: translateX(-50%);
+		padding: 0 20px;
+		background-color: #E6E6E6;
+	}
+}
